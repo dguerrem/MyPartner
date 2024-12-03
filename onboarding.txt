@@ -1,0 +1,105 @@
+Onboarding: Aplicación Web de Networking Estilo Tinder
+
+1. Información General
+   - **Nombre tentativo:** [Por definir]
+   - **Descripción:** 
+     Una aplicación de networking que conecta personas interesadas en proyectos personales, empresariales, negocios y formaciones. Inspirada en el modelo de Tinder, pero con un enfoque profesional.
+   - **Objetivo:** 
+     Crear una plataforma rápida y directa para establecer conexiones profesionales.
+
+2. Usuarios Objetivo
+   - Emprendedores
+   - Estudiantes
+   - Freelancers
+   - Empleados que buscan ampliar su red profesional
+   - Ejecutivos interesados en proyectos de inversión o alianzas estratégicas
+   - Formadores que desean captar alumnos o colegas
+   - Cualquier persona interesada en el networking profesional y personal
+
+3. Funcionalidades
+   - **Matching y Perfiles**
+     - Matching: Sistema basado en intereses comunes, sector, ubicación y experiencia.
+     - Perfiles: Incluyen proyectos destacados, habilidades, debilidades, edad, sector y oficio actual.
+   - **Interacciones**
+     - Swipe derecho/izquierdo para buscar conexiones.
+     - Chats habilitados al hacer match, sin límites iniciales.
+     - Notificaciones: Recibir alertas al obtener un match, like o mensaje.
+     - Posible implementación futura de videollamadas.
+   - **Gamificación**
+     - Hitos por conexiones conseguidas (1, 5, 10, 25, etc.).
+     - Hitos por días consecutivos usando la app.
+   - **Networking Grupal**
+     - Creación de grupos temáticos donde los usuarios puedan interactuar en torno a temas específicos (ej.: startups, marketing digital, desarrollo web).
+   - **Indicadores de Disponibilidad**
+     - Los usuarios podrán configurar su estado (ej.: "Disponible para charlar", "En reunión", "Buscando proyectos nuevos").
+   - **Resumen Semanal**
+     - Notificación o email con estadísticas del usuario:
+       - Nuevas conexiones.
+       - Mensajes enviados.
+       - Sugerencias de perfiles relevantes.
+   - **Traducción Automática de Mensajes**
+     - Traducción automática de mensajes entre usuarios que hablan diferentes idiomas.
+   - **Estadísticas del Perfil**
+     - Visualización de datos como:
+       - Cantidad de likes recibidos.
+       - Tasa de respuestas en chats.
+       - Niveles de interacción por sector.
+
+4. Diseño y UX
+   - **Estilo visual:** 
+     Minimalista, amigable, con colores crema y elementos visuales atractivos (iconos, animaciones, transiciones).
+   - **Onboarding:** 
+     Pantalla inicial con 2-3 pasos explicativos simples.
+   - **Accesibilidad:** 
+     No se considerará en la primera fase.
+
+5. Tecnologías
+   - **Frontend:** Angular 18.
+   - **Backend:** Node.js.
+   - **Base de datos:** SQL.
+   - **Integraciones:** 
+     Evaluar Firebase para gestión de autenticación, hosting o notificaciones push.
+
+6. Escalabilidad y Hosting
+   - **Arquitectura recomendada:** 
+     - Inicialmente monolítica para simplicidad.
+     - Escalable a microservicios en el futuro si se requiere.
+   - **Hosting:** Proveedores gratuitos recomendados:
+     - Frontend: Netlify.
+     - Backend: Vercel.
+     - Base de datos: Helioshost o servicios gratuitos en AWS/Azure.
+
+7. Metodología y Herramientas de Trabajo
+   - **Equipo:** 
+     Trabajo individual o junto a un compañero.
+   - **Metodología:** 
+     Kanban para mayor flexibilidad.
+   - **Herramientas:** 
+     - Trello para gestión básica de tareas.
+     - Notion como posible alternativa más estructurada.
+   - **Documentación:** 
+     Uso de Swagger para documentar la API y Postman para pruebas de endpoints.
+
+8. Monetización y Promoción
+   - **Modelo de negocio:** 
+     Publicidad en el futuro. Inicialmente gratuita.
+   - **Promoción:** 
+     Open-source, compartida en redes sociales como proyecto personal de aprendizaje.
+
+9. Legalidad y Expansión
+   - **Protección de datos:** 
+     Cumplimiento de GDPR para almacenar datos básicos como nombres, fotos e intereses.
+   - **Términos y condiciones:** 
+     Pendientes de redacción. Incluir restricciones para evitar abusos y clarificar la gestión de datos.
+   - **Expansión:** 
+     Local en la primera etapa.
+   - **Idiomas:** 
+     Inicialmente español. Añadir soporte multilingüe en futuras versiones.
+
+10. Futuras Funcionalidades
+    - **Mobile:** 
+      Extensión a dispositivos móviles con aplicaciones nativas.
+    - **Eventos personalizados:** 
+      Felicitaciones por cumpleaños y festivos.
+    - **Funciones premium:** 
+      Videollamadas, creación de grupos temáticos, perfiles destacados.

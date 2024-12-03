@@ -1,0 +1,68 @@
+Fase 1: Fundamentos Básicos
+  1. Preparación del Entorno de Trabajo
+     - Configuración del frontend con Angular 18.
+     - Configuración del backend con Node.js.
+     - Configuración inicial de la base de datos SQL.
+     - Integración básica con Firebase para autenticación y notificaciones push.
+  
+  2. Onboarding y Registro
+     - Desarrollo del flujo de onboarding (2-3 pasos explicativos simples).
+     - Sistema de registro e inicio de sesión.
+     - Diseño minimalista del frontend.
+  
+  3. Perfiles de Usuario
+     - Creación del modelo de datos para perfiles.
+     - Implementación del sistema de creación y edición de perfiles.
+     - Secciones principales: proyectos destacados, habilidades, sector, y oficio actual.
+
+Fase 2: Funcionalidad Principal
+  4. Matching
+     - Implementar la lógica de matching basada en intereses, sector, ubicación y experiencia.
+     - Swipe derecho-izquierdo para conexiones.
+  
+  5. Sistema de Chats
+     - Desarrollo de chats habilitados tras un match.
+     - Envío de mensajes básico.
+  
+  6. Notificaciones
+     - Integración de Firebase para alertas sobre matches y mensajes.
+ 
+
+Fase 3: Enriquecimiento de Experiencia
+  7. Gamificación
+     - Configuración inicial de hitos por conexiones y uso consecutivo.
+  
+  8. Indicadores de Disponibilidad
+     - Implementar estados personalizables de usuario.
+  
+  9. Networking Grupal
+     - Diseño e implementación básica de grupos temáticos.
+ 
+
+Fase 4: Estadísticas y Usabilidad
+  10. Resumen Semanal
+      - Generar estadísticas personalizadas para los usuarios.
+      - Envío de resúmenes por notificaciones o email.
+  
+  11. Estadísticas del Perfil
+      - Mostrar datos como likes, tasa de respuesta, y niveles de interacción.
+ 
+
+Fase 5: Optimización y Escalabilidad
+  12. Traducción Automática
+      - Añadir funcionalidad de traducción automática para mensajes.
+  
+  13. Expansión Multilingüe
+      - Ampliar soporte a múltiples idiomas.
+  
+  14. Escalabilidad
+      - Migrar a microservicios si la base de usuarios lo requiere.
+ 
+
+================================
+Metodología de Trabajo
+================================
+
+  - Utilizaremos Kanban para gestionar las tareas en fases más pequeñas y flexibles.
+  - Documentaremos la API con Swagger y probaremos los endpoints con Postman.
+  - Publicaremos el progreso y el proyecto como open-source para promoción y aprendizaje.
